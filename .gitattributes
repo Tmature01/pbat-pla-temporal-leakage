@@ -1,0 +1,9 @@
+# normalise line endings on text files
+* text=auto eol=lf
+
+# data files are opened by pandas; keep them byte-stable
+*.csv -text
+*.xlsx binary
+
+# figures
+*.png binary
